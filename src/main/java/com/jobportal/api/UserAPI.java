@@ -23,7 +23,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Pattern;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://jobsy-frontend.onrender.com")
 @Validated
 @RequestMapping("/users")
 public class UserAPI {

@@ -18,7 +18,7 @@ import com.jobportal.exception.JobPortalException;
 import com.jobportal.service.NotificationService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*", exposedHeaders = "*")
+@CrossOrigin(origins = "https://jobsy-frontend.onrender.com", allowedHeaders = "*", exposedHeaders = "*")
 @RequestMapping("/notification")
 public class NotificationAPI {
 	
