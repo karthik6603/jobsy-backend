@@ -17,7 +17,7 @@ FROM openjdk:17.0.1-jdk-slim
 WORKDIR /app
 
 # Copy the jar from the build stage
-COPY --from=build /app/target/JobPortal-0.01-SNAPSHOT.jar JobPortal.jar
+COPY --from=build /app/target/*.jar JobPortal.jar
 
 # Expose port 8080 to the outside world
 EXPOSE 8080
