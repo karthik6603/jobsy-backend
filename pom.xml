@@ -11,7 +11,7 @@
 	<groupId>com.jobportal</groupId>
 	<artifactId>JobPortal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Job-Portal</name>
+	<name>JobPortal</name>
 	<description>Backend for Job Portal Application</description>
 	<url/>
 	<licenses>
